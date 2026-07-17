@@ -49,7 +49,7 @@
         // reproducir un tema
         function play() {
             let rand = Math.ceil(Math.random() * 24)
-            new Audio(`audio/${rand}.mp3`).play()
+            new Audio(`${rand}.mp3`).play()
             p.innerHTML = `▶ ${name(rand)}`
             p.style.color = '#fff'
             // esperar 5 min y reproducir un tema
