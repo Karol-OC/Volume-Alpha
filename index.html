@@ -49,7 +49,7 @@
         // reproducir un tema
         function play() {
             let rand = Math.ceil(Math.random() * 24)
-            new Audio(`${rand}.mp3`).play()
+            new Audio(`audio/${rand}.mp3`).play()
             p.innerHTML = `▶ ${name(rand)}`
             p.style.color = '#fff'
             // esperar 5 min y reproducir un tema
@@ -63,76 +63,52 @@
             switch (num) {
                 case 1:
                     return '01 - Key'
-                    break;
                 case 2:
                     return '02 - Door'
-                    break;
                 case 3:
                     return '03 - Subwoofer Lullaby'
-                    break;
                 case 4:
                     return '04 - Death'
-                    break;
                 case 5:
                     return '05 - Living Mice'
-                    break;
                 case 6:
                     return '06 - Moog City'
-                    break;
                 case 7:
                     return '07 - Haggstrom'
-                    break;
                 case 8:
                     return '08 - Minecraft'
-                    break;
                 case 9:
                     return '09 - Oxygène'
-                    break;
                 case 10:
                     return '10 - Équinoxe'
-                    break;
                 case 11:
                     return '11 - Mice on Venus'
-                    break;
                 case 12:
                     return '12 - Dry Hands'
-                    break;
                 case 13:
                     return '13 - Wet Hands'
-                    break;
                 case 14:
                     return '14 - Clark'
-                    break;
                 case 15:
                     return '15 - Chris'
-                    break;
                 case 16:
                     return '16 - Thirteen' 
-                    break;
                 case 17:
                     return '17 - Excuse'
-                    break;
                 case 18:
                     return '18 - Sweden'
-                    break;
                 case 19:
                     return '19 - Cat'
-                    break;
                 case 20:
                     return '20 - Dog'
-                    break;
                 case 21:
                     return '21 - Danny'
-                    break;
                 case 22:
                     return '22 - Beginning'
-                    break;
                 case 23:
                     return '23 - Droopy Likes Ricochet'
-                    break;
                 case 24:
                     return '24 - Droopy Likes Your Face'
-                    break;
                 default:
                     break;
             }
